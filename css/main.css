@@ -95,6 +95,10 @@ iframe {
 	float: left;
 	width: 100%;
 }
+#pop_up{visibility:hidden;
+position: absolute;
+background: #fff; }
+
 .wp-caption,
 .wp-caption-text,
 .gallery-caption,
@@ -330,7 +334,7 @@ address { font-style: italic; }
 }
 .tg-btn{
 	z-index:3;
-	color: #fff;
+	color: #fff !important;
 	padding: 0 35px;
 	border-radius:4px;
 	position:relative;
@@ -342,6 +346,7 @@ address { font-style: italic; }
 	font:400 13px/40px 'Montserrat', Arial, Helvetica, sans-serif;
 }
 .tg-btn:hover{color:#fff;}
+.tg-btn:active{color:#fff;}
 .tg-btn-lg{ width: 100%;}
 .tg-btn:before,
 .tg-btn:after {
@@ -1639,6 +1644,7 @@ blockquote{
 	list-style:none;
 	padding:0 0 40px;
 	text-align:center;
+	display: none;
 }
 .tg-eventvenuenav li{
 	line-height:normal;
@@ -2967,19 +2973,7 @@ blockquote{
 	width:100%;
 	height:100%;
 	position:absolute;
-	background:
-		-moz-linear-gradient(-45deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	background:
-		-webkit-linear-gradient(-45deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	background:
-		linear-gradient(135deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3f6730d', endColorstr='#b3d90845',GradientType=1 );
+	background:radial-gradient(circle,#5828ee33,#5225e266);
 }
 .tg-eventinfovtwo{
 	width:100%;
