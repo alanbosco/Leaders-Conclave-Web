@@ -97,7 +97,10 @@ iframe {
 }
 #pop_up{visibility:hidden;
 position: absolute;
-background: #fff; }
+background: #fff; 
+}
+
+
 
 .wp-caption,
 .wp-caption-text,
