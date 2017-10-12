@@ -2520,19 +2520,7 @@ blockquote{
 	width:100%;
 	height:100%;
 	position:absolute;
-	background:
-		-moz-linear-gradient(-45deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	background:
-		-webkit-linear-gradient(-45deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	background:
-		linear-gradient(135deg,
-		rgba(246,115,13,0.7) 0%,
-		rgba(217,8,69,0.7) 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3f6730d', endColorstr='#b3d90845',GradientType=1 );
+	background:radial-gradient(circle,#5828ee33,#5225e266);
 }
 .tg-registercontent{
 	z-index:3;
