@@ -93,7 +93,7 @@ strong { color: #414141; }
 iframe {
 	border: none;
 	float: left;
-	width: 100%;
+	/*width: 100%*/;
 }
 #pop_up{visibility:hidden;
 position: absolute;
@@ -2470,7 +2470,7 @@ blockquote{
 	right:0;
 	position:absolute;
 	text-align:center;
-	padding:30px 70px;
+	padding:20px 15px;
 	border-radius:4px;
 	border:1px solid #dbdbdb;
 }
@@ -2500,7 +2500,7 @@ blockquote{
 	width:100%;
 	float:left;
 }
-.tg-locationregister .tg-locationmap{height:638px;}
+.tg-locationregister .tg-locationmap{height:696px;}
 .tg-register{
 	width:100%;
 	float:left;
@@ -2520,7 +2520,7 @@ blockquote{
 	width:100%;
 	height:100%;
 	position:absolute;
-	background:radial-gradient(circle,#5828ee33,#5225e266);
+	background:radial-gradient(circle,rgba(88, 40, 238, 0.33),rgba(82, 37, 226, 0.66));
 }
 .tg-registercontent{
 	z-index:3;
@@ -2964,7 +2964,7 @@ blockquote{
 	width:100%;
 	height:100%;
 	position:absolute;
-	background:radial-gradient(circle,#5828ee33,#5225e266);
+	background:radial-gradient(circle,rgba(88, 40, 238, 0.33),rgba(82, 37, 226, 0.66));
 }
 .tg-eventinfovtwo{
 	width:100%;
@@ -3423,3 +3423,8 @@ blockquote{
 	width: 100%;
 	float: left;
 }
+@media screen and (max-width: 480px) {
+	#ssd{
+		visibility: hidden;
+		}
+	}
