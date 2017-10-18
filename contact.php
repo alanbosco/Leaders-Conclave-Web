@@ -20,6 +20,6 @@ if(mail($to,$subject,$message))
     
 
 ?>
-<meta http-equiv="refresh" content="2; url=contact.html">
+<meta http-equiv="refresh" content="2; url=index.html">
 <!--<meta http-equiv="refresh" content="2; url=../image_slider/ads.html">
 header("Location: ../image_slider/ads.html");-->
